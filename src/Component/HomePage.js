@@ -1,30 +1,24 @@
 import React from 'react'
-import { Container, Card, Row, Col, Image } from 'react-bootstrap'
-import Kucing from '../Images/kucing.jpg'
-import Banner from '../Images/banner.jpg'
-import Banner2 from '../Images/bannerwd.jpg'
-const HomePage = () => {
+import { Container, Button } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navigation from './Nav'
+import Kaki from './Kaki'
+const HomePage = ({imaging}) => {
 
     return (
+        <>
+
+       <Navigation/>
         <Container fluid='xxl'style={{ display: 'grid', height: '100%', width: '100%' }}> 
-        <Image src={Banner2} fluid style={{ height: '200px', width: '100%' }}/>
-           
-                <Row xs={1} md={2} xl={4} xxl={4} className="g-4" style={{ marginTop:'10px' }}>
-                {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                        <Card fluid>
-                            <Card.Body>
-                            <Card.Img src={Kucing} />
-                                <Card.Title>
-                                    Gambar Kucing
-                                </Card.Title>
-                                <Card.Text>Ini adalah kucing langka yah</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
-                </Row>
+           <h1 className='text-center text'>Quick Link</h1>
+           <Container className='align-items-center justify-content-center d-grid'>
+               {Object.keys(imaging).map((item, index) =>
+           <Button key={index} href={imaging[item].path} className="btn-outline-light btn-dark m-2 shadow">{imaging[item].nama}</Button>
+           )}
+           </Container>
         </Container>
+        <Kaki/>
+        </>
     )
 }
 
