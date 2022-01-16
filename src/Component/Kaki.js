@@ -4,14 +4,12 @@ import Tokopedia from  '../Images/tokopedia.png'
 import Instagram from '../Images/instagram2.png'
 const Kaki = () => {
     return (
-      <Container fluid className=' footer d-flex border-top'>
+      <footer className='footer d-flex border-top mt-3 d-grid'>
           <Container className='align-items-start'>
-              <Image className='img-fluid w-25 ' src={Tokopedia}/>
+              <Image className='img-fluid' src={Tokopedia} style={{ height: '100px' }}/>
+              <Image className='img-fluid' src={Instagram} style={{ height: '100px' }}/>
           </Container>
-          <Container className='align-items-end'>
-              <Image className='img-fluid w-25' src={Instagram}/>
-          </Container>
-      </Container>
+      </footer>
     )
 }
 
