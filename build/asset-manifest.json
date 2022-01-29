@@ -1,29 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/static/js/main.070673c4.chunk.js",
-    "main.js.map": "/static/js/main.070673c4.chunk.js.map",
+    "main.js": "/static/js/main.a9562cad.chunk.js",
+    "main.js.map": "/static/js/main.a9562cad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aad1df32.js",
     "runtime-main.js.map": "/static/js/runtime-main.aad1df32.js.map",
     "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
-    "static/js/2.f0b040da.chunk.js": "/static/js/2.f0b040da.chunk.js",
-    "static/js/2.f0b040da.chunk.js.map": "/static/js/2.f0b040da.chunk.js.map",
+    "static/js/2.9f14ee67.chunk.js": "/static/js/2.9f14ee67.chunk.js",
+    "static/js/2.9f14ee67.chunk.js.map": "/static/js/2.9f14ee67.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
     "static/css/main.7d180cbf.chunk.css.map": "/static/css/main.7d180cbf.chunk.css.map",
-    "static/js/2.f0b040da.chunk.js.LICENSE.txt": "/static/js/2.f0b040da.chunk.js.LICENSE.txt",
+    "static/js/2.9f14ee67.chunk.js.LICENSE.txt": "/static/js/2.9f14ee67.chunk.js.LICENSE.txt",
+    "static/media/aboutus2.c5da1130.jpeg": "/static/media/aboutus2.c5da1130.jpeg",
+    "static/media/aboutus3.52e86e49.jpeg": "/static/media/aboutus3.52e86e49.jpeg",
+    "static/media/aboutus4.8a58071c.jpeg": "/static/media/aboutus4.8a58071c.jpeg",
     "static/media/barang.4fb92fb8.jpeg": "/static/media/barang.4fb92fb8.jpeg",
     "static/media/barang2.cf4b7de6.jpeg": "/static/media/barang2.cf4b7de6.jpeg",
     "static/media/barang3.2336f5e3.jpeg": "/static/media/barang3.2336f5e3.jpeg",
     "static/media/barang4.98dfde3d.jpeg": "/static/media/barang4.98dfde3d.jpeg",
-    "static/media/instagram2.10133035.png": "/static/media/instagram2.10133035.png",
-    "static/media/tokopedia.31137c87.png": "/static/media/tokopedia.31137c87.png"
+    "static/media/instagram.2ddfb599.png": "/static/media/instagram.2ddfb599.png",
+    "static/media/logo2.2287d066.jpg": "/static/media/logo2.2287d066.jpg",
+    "static/media/tokopediaNew.868ee47b.png": "/static/media/tokopediaNew.868ee47b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aad1df32.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.f0b040da.chunk.js",
+    "static/js/2.9f14ee67.chunk.js",
     "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.070673c4.chunk.js"
+    "static/js/main.a9562cad.chunk.js"
   ]
 }

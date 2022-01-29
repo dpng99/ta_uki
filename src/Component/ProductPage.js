@@ -18,8 +18,11 @@ const ProductPage = ({dataIsi}) => {
                   <Image className='img-fluid border border-2 w-50' src={dataIsi.sumber} />
                   <p className='text-start fs-4 fw-bold'>{dataIsi.price}</p>
                   </Container>
-                  <Container className='align-items-end mt-4'>
-                      <p className='text-left fs-4'>{dataIsi.text}</p>
+                  <Container className='align-items-center mt-4'>
+                      <h3>Description</h3>
+                      <p className='text-left fs-5'>{dataIsi.text}</p>
+                      <p className='text-left fs-5'>{dataIsi.berat}</p>
+                      <p className='text-left fs-5'>{dataIsi.descripction_product}</p>
                       <Button href={dataIsi.link} className='btn btn-success'>Link To Product</Button>
                   </Container>
               </Container>
